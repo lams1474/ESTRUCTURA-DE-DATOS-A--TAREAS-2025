@@ -9,9 +9,9 @@ while (continuar)
     //Console.Clear(); // Limpia la pantalla en cada iteración (mejora visual)
     Console.WriteLine("=== MENÚ PRINCIPAL ===");
     Console.WriteLine("1. TraductorBasico");
-    Console.WriteLine("2. Ejercicio7");
-    Console.WriteLine("3. Ejercicio10");
-    Console.WriteLine("4. Ejercicio4");
+    Console.WriteLine("2. CampaniaVacunacionTarea");
+    Console.WriteLine("3. TorneoFutbolTarea");
+    Console.WriteLine("4. CatalogoRevistass");
     Console.WriteLine("5. Salir");
     Console.Write("\nSelecciona una opción: "); 
     string opcion = Console.ReadLine();
@@ -22,13 +22,13 @@ while (continuar)
             TraductorBasico.run();
             break;
         case "2":
-            Ejercicio7.run(); 
+            CampaniaVacunacionTarea.run(); 
             break;
         case "3":
-            Ejercicio10.run(); 
+            TorneoFutbolTarea.run(); 
             break;
         case "4":
-            Ejercicio4.run();
+            CatalogoRevistass.run();
             break;
         case "5":
             Console.WriteLine("Saliendo... ¡Hasta pronto!");
@@ -39,7 +39,7 @@ while (continuar)
             break;
     }
 
-    // Pausa solo si NO se está saliendo
+        // Pausa solo si NO se está saliendo
     if (continuar)
     {
         Console.WriteLine("\nPresiona cualquier tecla para volver al menú...");

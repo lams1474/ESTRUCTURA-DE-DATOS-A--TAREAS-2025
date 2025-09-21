@@ -27,9 +27,7 @@ public class ListaSimple
         Console.WriteLine("\nEjercicio lista simple ejecutado correctamente.");
     }
 
-    // =======================
-    // Clase Nodo
-    // =======================
+        // Clase Nodo    
     private class Nodo
     {
         public int Dato;
@@ -42,16 +40,11 @@ public class ListaSimple
         }
     }
 
-    // =======================
-    // Atributo de la lista
-    // =======================
+        // Atributo de la lista
     private Nodo? head;
 
-    // =======================
-    // Métodos de lógica
-    // =======================
-
-    // Inserta un nodo al inicio
+        // Métodos de lógica
+        // Inserta un nodo al inicio
     public void InsertarInicio(int dato)
     {
         Nodo nuevo = new Nodo(dato);
