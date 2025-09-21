@@ -6,7 +6,7 @@ public class Ejercicio3
         System.Console.WriteLine("===== EJERCICIO 3: NOTAS DE ASIGNATURAS =====");
 
         // Lista de asignaturas
-        string[] asignaturas = { "Matemáticas", "Física", "Química", "Historia", "Lengua" };
+        string[] asignaturas = { "Matemáticas", "Física", "Química", "Historia", "Etica" };
 
         // Array para almacenar las notas
         double[] notas = new double[asignaturas.Length];
